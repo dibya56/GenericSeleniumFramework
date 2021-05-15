@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Generic Test Automation Framework">
+	<listeners>
+		<listener class-name="utils.SuitListener"></listener>
+	</listeners>
+	<test name="Test Automation">
+		<parameter name="browserName" value="chrome"></parameter>
+		<classes>
+			<class name="tests.LoginTest"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
