@@ -17,6 +17,7 @@ public class LoginTest extends BaseTest{
 		/*
 		 * home.clickSignInBtn(); login.login(); home.validateLogin();
 		 */
+		//d
 		home.validateText();
 	}
 }
