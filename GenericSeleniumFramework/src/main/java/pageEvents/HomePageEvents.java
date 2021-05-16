@@ -17,7 +17,14 @@ public class HomePageEvents {
 	}
 	
 	public void validateLogin() {
+		
 		Assert.assertTrue(elementFetch.getListOfWebElements("CSS", HomePage.amazonLogo).size()>0, "Login not successfull");
 		BaseTest.logger.info("Login Successfull");
+	}
+	
+	public void validateText() {
+
+		Assert.assertEquals(elementFetch.getWebElement("XPATH", HomePage.pageText).getText(), "Jekins");
+		BaseTest.logger.info("Success");
 	}
 }

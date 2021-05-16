@@ -14,8 +14,9 @@ public class LoginTest extends BaseTest{
 	@Test
 	public void loginTestMethod() {
 		
-		home.clickSignInBtn();
-		login.login();
-		home.validateLogin();
+		/*
+		 * home.clickSignInBtn(); login.login(); home.validateLogin();
+		 */
+		home.validateText();
 	}
 }

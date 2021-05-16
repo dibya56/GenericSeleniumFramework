@@ -2,5 +2,5 @@ package utils;
 
 public interface Constants {
 
-	String URL = "https://www.amazon.in";
+	String URL = "file:///home/dibya56/Documents/Jenkins.html";
 }
