@@ -78,7 +78,7 @@ public class BaseTest {
 			logger.log(Status.FAIL, m);
 		} else if (result.getStatus() == ITestResult.SKIP) {
 			String logText = "TestCase: " + methodName + " skipped";
-			Markup m = MarkupHelper.createLabel(logText, ExtentColor.YELLOW);
+			Markup m = MarkupHelper.createLabel(logText, ExtentColor.BLUE);
 			logger.log(Status.SKIP, m);
 		}
 
