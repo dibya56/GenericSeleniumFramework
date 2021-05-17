@@ -11,8 +11,7 @@ Extent Reporting Steps
 
 This Framework is made from the Youtube Tutorial of Sameer Arora for Tutorial purpose [Link: https://www.youtube.com/watch?v=V840FH_-r8I]
 
-<<<<<<< HEAD
+
 Interview
-=======
+
 preparing for intt
->>>>>>> bc39826663cc6e7407b0794165f25ba992206ac1
